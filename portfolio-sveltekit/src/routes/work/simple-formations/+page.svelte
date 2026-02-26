@@ -65,6 +65,24 @@
 		</section>
 
 		<section class="space-y-5">
+			<h2 class="text-xl sm:text-2xl font-semibold text-slate-900">Key Impact Metrics</h2>
+			<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+				<div class="rounded-2xl border border-slate-200 bg-slate-50 p-6">
+					<div class="text-3xl font-bold text-slate-900">10x</div>
+					<p class="text-sm text-slate-600 mt-2">Practitioner leverage (5 → 50 companies)</p>
+				</div>
+				<div class="rounded-2xl border border-slate-200 bg-slate-50 p-6">
+					<div class="text-3xl font-bold text-slate-900">75%</div>
+					<p class="text-sm text-slate-600 mt-2">Average time savings across workflows</p>
+				</div>
+				<div class="rounded-2xl border border-slate-200 bg-slate-50 p-6">
+					<div class="text-3xl font-bold text-slate-900">82%</div>
+					<p class="text-sm text-slate-600 mt-2">Average risk reduction</p>
+				</div>
+			</div>
+		</section>
+
+		<section class="space-y-5">
 			<h2 class="text-xl sm:text-2xl font-semibold text-slate-900">Role evolution</h2>
 			<p class="max-w-3xl text-sm sm:text-base text-slate-600 leading-relaxed">
 				My responsibilities changed as the platform grew. I started in the work, then moved into system
@@ -157,56 +175,70 @@
 		</section>
 
 		<section class="space-y-6">
-			<h2 class="text-xl sm:text-2xl font-semibold text-slate-900">Key flows</h2>
+			<h2 class="text-xl sm:text-2xl font-semibold text-slate-900">Flagship Features & Impact</h2>
 
 			<div class="space-y-4">
-				<h3 class="text-lg sm:text-xl font-semibold text-slate-900">New company formation</h3>
+				<h3 class="text-lg sm:text-xl font-semibold text-slate-900">1. Roles & Permissions – Governance as System</h3>
 				<div class="space-y-3 text-sm sm:text-base text-slate-600 leading-relaxed max-w-3xl">
 					<p>
-						<strong class="font-semibold text-slate-900">Goal:</strong> Make incorporating a company
-						predictable for professionals while respecting local legal requirements.
+						<strong class="font-semibold text-slate-900">Problem:</strong> Manual permission management
+						led to chaos – who can do what was unclear, and errors were frequent.
 					</p>
 					<p>
-						<strong class="font-semibold text-slate-900">Challenges:</strong> Multiple steps across
-						agencies, edge cases known only to ops and legal, and rules that evolved over the life of the
-						product.
+						<strong class="font-semibold text-slate-900">Solution:</strong> Role-based access control with
+						permission templates tied to company structure.
 					</p>
 					<p>
-						<strong class="font-semibold text-slate-900">What I did:</strong> Mapped the end-to-end
-						journey from the professional’s point of view, worked with compliance to separate what could be
-						automated from what needed manual checks, and designed a step-by-step flow that surfaced key
-						decisions early while keeping status clear for both clients and ops.
+						<strong class="font-semibold text-slate-900">Impact:</strong> 60% time savings + 95% fewer
+						permission errors. Enabled practitioners to manage teams and delegate authority at scale.
 					</p>
 					<p>
-						<strong class="font-semibold text-slate-900">Outcome:</strong> A single, trackable flow
-						instead of scattered updates, reduced back-and-forth for standard cases, and a foundation we
-						could extend to new entity types without redesigning from scratch.
+						<strong class="font-semibold text-slate-900">Why it matters:</strong> Shows architectural
+						depth in designing scalable access patterns that align with business structure.
 					</p>
 				</div>
 			</div>
 
 			<div class="space-y-4">
-				<h3 class="text-lg sm:text-xl font-semibold text-slate-900">Ongoing compliance and filings</h3>
+				<h3 class="text-lg sm:text-xl font-semibold text-slate-900">2. Minute Book & Registers – Compliance as Byproduct</h3>
 				<div class="space-y-3 text-sm sm:text-base text-slate-600 leading-relaxed max-w-3xl">
 					<p>
-						<strong class="font-semibold text-slate-900">Goal:</strong> Help professionals keep companies
-						compliant without relying on personal memory and scattered reminders.
+						<strong class="font-semibold text-slate-900">Problem:</strong> Scattered statutory records
+						created compliance nightmares and audit risks.
 					</p>
 					<p>
-						<strong class="font-semibold text-slate-900">Challenges:</strong> Different filing schedules
-						and requirements, penalties for late submissions, and existing workflows spread across
-						spreadsheets and email.
+						<strong class="font-semibold text-slate-900">Solution:</strong> Business actions automatically
+						generate register entries, ensuring records are always current and consistent.
 					</p>
 					<p>
-						<strong class="font-semibold text-slate-900">What I did:</strong> Worked with ops to catalogue
-						recurring obligations and their triggers, designed a compliance calendar and reminder model that
-						fit how professionals think about their clients, and integrated this into the platform so tasks
-						felt like part of the same system.
+						<strong class="font-semibold text-slate-900">Impact:</strong> 70% time savings + 85% compliance
+						risk reduction. Records are now audit-ready at all times.
 					</p>
 					<p>
-						<strong class="font-semibold text-slate-900">Outcome:</strong> A single place to see
-						obligations and statuses by company, clearer upcoming deadlines for professionals and ops, and
-						groundwork for deeper automation.
+						<strong class="font-semibold text-slate-900">Why it matters:</strong> Demonstrates deep
+						regulatory understanding and how to automate compliance without manual checkboxes.
+					</p>
+				</div>
+			</div>
+
+			<div class="space-y-4">
+				<h3 class="text-lg sm:text-xl font-semibold text-slate-900">3. Application Review & Approval – Workflow Orchestration</h3>
+				<div class="space-y-3 text-sm sm:text-base text-slate-600 leading-relaxed max-w-3xl">
+					<p>
+						<strong class="font-semibold text-slate-900">Problem:</strong> Multi-party approvals were
+						serial bottlenecks taking 2-3 weeks.
+					</p>
+					<p>
+						<strong class="font-semibold text-slate-900">Solution:</strong> Parallel approvals with smart
+						routing based on document type and stakeholder role.
+					</p>
+					<p>
+						<strong class="font-semibold text-slate-900">Impact:</strong> 70% faster decisions + 100% no
+						missing approvers.
+					</p>
+					<p>
+						<strong class="font-semibold text-slate-900">Why it matters:</strong> Shows expertise in
+						workflow engineering and optimizing business processes.
 					</p>
 				</div>
 			</div>

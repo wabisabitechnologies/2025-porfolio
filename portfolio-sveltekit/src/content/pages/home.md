@@ -1,9 +1,9 @@
 ---
 name: "Alex Cosmas"
-title: "Design.Product.Innovation"
-summary: "Over a decade designing systems, workflows, and prototypes that turn ambiguity into launch-ready solutions."
+title: "Product Designer & Leader"
+summary: "I build products that turn regulatory complexity into operational clarity. Over 5 years, I grew Simple Formations from concept to a compliance platform used by thousands of businesses in Kenya."
 roles:
-  - "Currently, Product Lead @ Simple Formations"
+  - "Product Lead @ Simple Formations"
   - "Founder @ WabiSabi Technologies"
 featuredIntro: "A deeper dive into how Simple Formations helps businesses stay compliant, manage filings, and scale operations with confidence."
 availabilityQuarter: 4
@@ -44,8 +44,6 @@ focusAreas:
 profilePhoto: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=facearea&w=160&h=160&q=80"
 ---
 
-I help founders and product teams align strategy, validate ideas, and ship with speed.
+I help teams turn ambiguity into clarity. My work blends deep user research, systems thinking, and rapid prototyping to create products that solve real problems for real people.
 
-My approach blends research, systems thinking, and rapid prototyping so stakeholders can make confident decisions with artifacts they can see, test, and feel.
-
-**I operate as a hybrid IC–Leader:** hands-on in design and engineering craft while driving product direction, clarity, and alignment across teams. I take ambiguous, high-stakes problems, frame them clearly, and push them toward outcomes with momentum and precision.
+**Hybrid IC–Leader:** I'm hands-on in design and engineering while driving product direction, ensuring alignment across teams, and delivering measurable outcomes. I specialize in regulated environments where details matter and the cost of getting it wrong is high.

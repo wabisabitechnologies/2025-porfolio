@@ -10,29 +10,7 @@
 
 <div class="min-h-screen bg-white text-slate-900">
 	<div class="mx-auto max-w-6xl px-4 pb-16 pt-10 sm:px-6 lg:px-8">
-		<header class="flex items-center justify-between gap-4">
-			<div class="flex items-center gap-3">
-				<img
-					src={home.profilePhoto}
-					alt={`Portrait of ${home.name}`}
-					class="h-12 w-12 rounded-full object-cover shadow-lg ring-4 ring-white"
-				/>
-				<div>
-					<p class="text-lg font-semibold text-slate-900">{home.name}</p>
-					<p class="text-sm text-slate-500">{home.title}</p>
-				</div>
-			</div>
-
-			<nav class="hidden gap-6 text-sm font-medium text-slate-600 sm:flex">
-				{#each home.navigation as item}
-					<a href={item.href} class="hover:text-slate-900">
-						{item.label}
-					</a>
-				{/each}
-			</nav>
-		</header>
-
-		<section class="mt-8 space-y-6">
+		<section class="space-y-6">
 			<div class="space-y-5">
 				<h1
 					class="text-3xl font-semibold leading-tight text-slate-900 sm:text-4xl lg:text-[2.75rem] sm:leading-snug break-words"
