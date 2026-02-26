@@ -1,0 +1,17 @@
+service: alexcosmas-portfolio
+image: alexcosmas-portfolio
+servers:
+  - 5.189.176.147
+registry:
+  server: localhost:5555
+  username: kamal
+  password:
+    - KAMAL_REGISTRY_PASSWORD
+builder:
+  arch: amd64
+  context: .
+env:
+  clear:
+    PORT: 80
+  secret:
+    - KAMAL_REGISTRY_PASSWORD
